@@ -8,7 +8,7 @@ public class LinkedListFromPosition {
         LinkedList<String> list = new LinkedList<>(Arrays.asList("Red", "Blue", "Green", "Yellow"));
         Iterator<String> itr = list.listIterator(1); // Start at index 1 (2nd element)
         while (itr.hasNext()) {
-            System.out.println(itr.next());
+            System.out.print(itr.next() + " ");
         }
     }
 }
