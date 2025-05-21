@@ -5,7 +5,7 @@ Searching, Substring Operations , String Modification, Whitespace Handling, Stri
 String Splitting, StringBuilder Demo, String Formatting , Validate Email with contains( ) and
 startsWith() and endsWith()*/
 
-public class StringOperations3a {
+public class StringOperations {
     public static void main(String[] args) {
         String str1 = "Hello";
         String str2 = "World";
