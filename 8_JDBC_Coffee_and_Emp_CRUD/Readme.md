@@ -21,7 +21,6 @@ This part demonstrates:
 
 ### 🔗 Output Screens:
 - [8a.png](./8a_Read%20all%20coffee%20records%20and%20insert%20a%20new%20one/8a.png)
-- [8a0.png](./8a_Read%20all%20coffee%20records%20and%20insert%20a%20new%20one/8a0.png)
 
 ---
 
