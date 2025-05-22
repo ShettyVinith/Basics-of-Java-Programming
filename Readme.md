@@ -1,4 +1,4 @@
-# Java Lab Internal Assessment – Shetty Vinith
+# Basics-of-Java-Programming – Vinith Shetty 4AL22CS144
 
 This repository contains organized Java programs for data structures, string handling, GUI (Swing), servlets, JSP, and JDBC-based projects.
 
