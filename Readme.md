@@ -1,6 +1,6 @@
-# Basics-of-Java-Programming
+# Java Lab Internal Assessment – Shetty Vinith
 
-This repository contains organized Java programs for data structures, string handling, GUI (Swing), servlets, JSP, and JDBC-based projects.
+This repository contains Java programs for data structures, string handling, Swing GUI, Servlets, JSP, and JDBC projects.
 
 ## 📁 Folder Structure
 
@@ -16,30 +16,30 @@ This repository contains organized Java programs for data structures, string han
 
 ---
 
-## 🛠️ JDBC Program Execution Instructions
-
-To run the JDBC programs in folders `8_JDBC_Coffee_and_Emp_CRUD` and `9_JDBC_Advanced_Coffee_and_Emp`, follow the steps below:
+## 🛠️ JDBC and Web Programs Execution Instructions
 
 ### 1. Install XAMPP
-Download and install XAMPP from: https://www.apachefriends.org/index.html
+Download and install from: https://www.apachefriends.org/index.html  
+Start **Apache** and **MySQL** from XAMPP Control Panel.
 
-### 2. Start Apache and MySQL
-Open the XAMPP Control Panel and start:
-- **Apache**
-- **MySQL**
+### 2. Setup the Database
+- Open [phpMyAdmin](http://localhost/phpmyadmin)
+- Import `database.sql` file from this repo to create necessary tables.
 
-### 3. Setup the Database
-1. Open [phpMyAdmin](http://localhost/phpmyadmin) in your browser.
-2. Click on "Import".
-3. Choose the `database.sql` file provided in the folder.
-4. Click **Go** to create the necessary tables (`coffee`, `Emp`, etc.)
+### 3. Install Apache Tomcat (for Servlet, JSP, and JDBC Web programs)
+- Download Apache Tomcat 9 or 10 from: https://tomcat.apache.org/download-90.cgi  
+  (Versions 6 to 10 are compatible, but newer is recommended.)
+- Install and configure Tomcat.
 
-### 4. Configure JDBC in Your Java Project
-- Download the **MySQL Connector/J**: [MySQL Connector](https://dev.mysql.com/downloads/connector/j/)
-- Add the JAR to your project’s classpath (in Eclipse: Right-click project → Build Path → Add External JARs).
-  
-### 5. Update DB Connection URL if needed
-Check the `Connection.java` or `DBConnect.jsp` file:
+### 4. Deploy Web Programs
+- Copy your `.jsp`, `.java` servlet classes (compiled to `.class`) and related files into the Tomcat `webapps` folder under your project directory.
+- Alternatively, use an IDE like Eclipse or IntelliJ IDEA configured with Tomcat to run and debug programs.
+
+### 5. Configure JDBC Driver in Tomcat
+- Place the MySQL Connector/J JAR file (`mysql-connector-java-x.x.x.jar`) in the Tomcat `lib` folder.
+
+### 6. Update Database Connection Details
+In your Java/JSP files, ensure the connection string matches your MySQL setup, for example:
+
 ```java
 Connection con = DriverManager.getConnection("jdbc:mysql://localhost:3306/your_db_name", "root", "");
-
