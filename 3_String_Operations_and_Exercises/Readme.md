@@ -17,7 +17,7 @@ This folder contains Java programs for various string operations and exercises s
   - **CountOccurrences.java**  
     [View Output](./3b_String%20Exercises/3b2.png)
 
-    - **ReverseString.java**  
+  - **ReverseString.java**  
     [View Output](./3b_String%20Exercises/3b3.png)
 
   - **IsPalindrome.java**  
