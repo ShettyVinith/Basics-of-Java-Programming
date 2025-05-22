@@ -49,5 +49,18 @@ Check the `Connection.java` or `DBConnect.jsp` file and ensure the connection st
 ```java
 Connection con = DriverManager.getConnection("jdbc:mysql://localhost:3306/your_db_name", "root", "");
 ```
+Replace `your_db_name` with the database name imported from `database.sql`.
+
+**Username:** `root` (default in XAMPP)  
+**Password:** leave blank unless you set one in MySQL.
+
+---
+
+### 7. Deploy and Run JSP/Servlet Files
+
+- Copy your JSP and Servlet files to Tomcat’s deployment folder, usually:
+
+  ```vbnet
+  C:\path\to\tomcat\webapps\your_project_folder
 
 
