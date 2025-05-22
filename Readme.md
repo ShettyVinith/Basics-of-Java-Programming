@@ -48,3 +48,6 @@ Download and install Apache Tomcat from: https://tomcat.apache.org/
 Check the `Connection.java` or `DBConnect.jsp` file and ensure the connection string matches your setup:
 ```java
 Connection con = DriverManager.getConnection("jdbc:mysql://localhost:3306/your_db_name", "root", "");
+```
+
+
