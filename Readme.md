@@ -1,6 +1,6 @@
-# Java Lab Internal Assessment – Shetty Vinith
+# Basics-of-Java-Programming
 
-This repository contains organized Java programs for internal assessment, covering data structures, string handling, GUI (Swing), servlets, JSP, and JDBC-based projects.
+This repository contains organized Java programs for data structures, string handling, GUI (Swing), servlets, JSP, and JDBC-based projects.
 
 ## 📁 Folder Structure
 
